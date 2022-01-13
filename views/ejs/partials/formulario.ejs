@@ -1,0 +1,39 @@
+<%- include('header.ejs')%> 
+
+<h1>Ingresar datos</h1>
+
+<div class="container">
+  <div style="display: flex; justify-content: space-between; align-items: flex-start; padding: 10px 10px;">
+    <div style="align-items: center;" class="p-3 mb-2 bg-primary text-white">
+      <form action="/admin/formulario" id="productos" method="post">
+        <div class="form-group">
+          <label for="title">Nombre</label>
+          <input type="text" name="producto[title]" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="description">Descripción</label>
+          <input type="text" name="producto[description]" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="code">Código</label>
+          <input type="text" name="producto[code]" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="thumbnail">Foto (url)</label>
+          <input type="text" name="producto[thumbnail]" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="price">Precio</label>
+          <input type="number" name="producto[price]" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="stock">En Stock</label>
+          <input type="number" name="producto[stock]" class="form-control">
+        </div>
+        <button id="contenedor-formulario" style="align-items: center;" class="btn btn-success" type="submit" >Agregar</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<%- include('footer.ejs')%> 

@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Escuadra",
+    "price": 125.2,
+    "thumbnail": "https://www.seekpng.com/png/full/347-3477811_escuadra-de-60-escuadra-para-corte-y-confeccion.png",
+    "id": 1
+  },
+  {
+    "title": "Calculadora",
+    "price": 42,
+    "thumbnail": "url",
+    "id": 2
+  },
+  {
+    "title": "Globo terraqueo",
+    "price": 25.99,
+    "thumbnail": "url",
+    "id": 3
+  },
+  {
+    "title": "Computadora",
+    "price": "17000",
+    "thumbnail": "url-computadora",
+    "id": 4
+  },
+  {
+    "title": "ZTE Phone",
+    "price": "50000",
+    "thumbnail": "ZTE.jpg",
+    "id": 5
+  },
+  {
+    "id": 6,
+    "title": "Ipad",
+    "price": "17000",
+    "thumbnail": "ipad.jpg"
+  }
+]
